@@ -16,12 +16,12 @@ namespace TMS.API.Services
             _logger = logger;
         }
 
-        public IEnumerable<Topic> GetAllTopicsByCourseId(int id)
+        public IEnumerable<Course> GetAllTopicByCourseId(int id)
         {
             
             try
             {
-                return _context.Topics.Where(t=>t.CourseId == id).Include(t=>t.Course).ToList();
+                return _context.Courses.Where(c=>c.Id == id).Include(c=>c.Topics).ToList();
             }
             catch (System.InvalidOperationException ex)
             {
@@ -58,7 +58,7 @@ namespace TMS.API.Services
         }
         public Object GetCourseById(int id)
         {
-            var obj = _context.Courses.Find(id);
+            var obj = _context.Courses.Where(c=>c.Id==id).FirstOrDefault();
             if (obj != null)   
             {
                 return obj;
@@ -81,6 +81,7 @@ namespace TMS.API.Services
                 dbCourse.Name = course.Name;
                 dbCourse.Duration = course.Duration;
                 dbCourse.Description = course.Description;
+                dbCourse.isDisabled = course.isDisabled;
                 dbCourse.CreatedOn = DateTime.Now;
                 _context.Courses.Add(dbCourse);
                 _context.SaveChanges();
@@ -110,7 +111,9 @@ namespace TMS.API.Services
                     Course = dbTopic.CourseId,
                     Name = dbTopic.Name,
                     Duration = dbTopic.Duration,
-                    Context = dbTopic.Context
+                    Context = dbTopic.Context,
+                    isDisabled = dbTopic.isDisabled
+
                 };
 
                 return result;

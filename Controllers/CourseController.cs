@@ -84,7 +84,7 @@ namespace TMS.API.Controllers
 
             try
             {
-                var result = _CourseService.GetAllTopicsByCourseId(id);
+                var result = _CourseService.GetAllTopicByCourseId(id);
                 if (result != null) return Ok(result);
                 return NotFound("we are sorry, the thing you requested was not found");
             }
@@ -95,6 +95,7 @@ namespace TMS.API.Controllers
                 return Problem("we are sorry, some thing went wrong");
             }
         }
+         [HttpGet("GetCourseById/{id:int}")]
         public IActionResult GetCourseById(int id)
         {
             if (id == 0) return BadRequest("Please provide a valid Depatment id");
