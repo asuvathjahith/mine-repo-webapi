@@ -33,26 +33,22 @@ namespace TMS.API.Services
                 return result;
             }
             return "not found";
-        }    
-        
-        public IEnumerable<Department> GetAllDepartments()
-        {
-           try
-            {
-                return _context.Departments.ToList();
-            }
-            catch (System.InvalidOperationException ex)
-            {
-                _logger.LogCritical("An Critical error occured in User services. Please check the program.cs, context class and connection string. It happend due to failure of injection of context. ");
-                _logger.LogTrace(ex.ToString());
-                throw ex;
-            }
-            catch (System.Exception ex)
-            {
-                _logger.LogCritical("An Critical error occured in User services. Some external factors are involved. please check the log files to know more about it");
-                _logger.LogTrace(ex.ToString());
-                throw ex;
-            }
         }
+        // public IEnumerable<Department> GetAllDepartments()
+        // {
+             
+        //     try
+        //     {
+        //         var result = _context.Departments.ToList();
+        //         if (result != null) return Ok(result);
+        //         return NotFound("we are sorry, the thing you requested was not found");
+        //     }
+        //     catch (System.Exception ex)
+        //     {
+        //         _logger.LogWarning("There was an error in getting all Departments. please check the db for more information");
+        //         _logger.LogError($"error:  " + ex.ToString());
+        //         return Problem("we are sorry, some thing went wrong");
+        //     }
+        // }
     }
 }

@@ -9,8 +9,6 @@ namespace TMS.API.DTO
         public string Name { get; set; }
         public string Duration { get; set; }
         public string Context { get; set; }
-        public bool isDisabled { get; set; }
-
 
     }
 }

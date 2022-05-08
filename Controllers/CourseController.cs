@@ -84,7 +84,7 @@ namespace TMS.API.Controllers
 
             try
             {
-                var result = _CourseService.GetAllTopicByCourseId(id);
+                var result = _CourseService.GetAllTopicsByCourseId(id);
                 if (result != null) return Ok(result);
                 return NotFound("we are sorry, the thing you requested was not found");
             }
