@@ -108,7 +108,7 @@ namespace TMS.API.Services
                 {
                     Id = dbTopic.Id,
                     Course = dbTopic.CourseId,
-                    Name = dbTopic.TopicName,
+                    Name = dbTopic.Name,
                     Duration = dbTopic.Duration,
                     Context = dbTopic.Context
                 };
