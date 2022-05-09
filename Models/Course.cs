@@ -10,8 +10,8 @@ namespace TMS.API.Models
     {
         public int Id { get; set; }
         public int StatusId { get; set; }
-        [NotMapped]
-        public int TrainerId { get; set; }
+        // [NotMapped]
+        // public int TrainerId { get; set; }
         public int DepartmentId { get; set; }
         public string Name { get; set; }
         public string Duration { get; set; }
@@ -24,7 +24,7 @@ namespace TMS.API.Models
         public User? Trainer { get; set; }
         public Department? Department { get; set; }
         public List<Topic>? Topics { get; set; }
-        public List<User>? Trainees { get; set; }
+        public List<User>? Users { get; set; }
         public List<CourseFeedback>? Feedbacks { get; set; }
 
 

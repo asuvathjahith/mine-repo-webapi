@@ -1,0 +1,414 @@
+[2022-05-06 19:45:30.368 +05:30  INF]  Now listening on: https://localhost:7161
+[2022-05-06 19:45:30.398 +05:30  INF]  Now listening on: http://localhost:5110
+[2022-05-06 19:45:30.406 +05:30  INF]  Application started. Press Ctrl+C to shut down.
+[2022-05-06 19:45:30.406 +05:30  INF]  Hosting environment: Development
+[2022-05-06 19:45:30.406 +05:30  INF]  Content root path: D:\Team Source\TMS-API\
+[2022-05-06 19:45:56.781 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/ - -
+[2022-05-06 19:45:56.847 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/ - - - 404 0 - 69.1260ms
+[2022-05-06 19:46:01.132 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/swagger - -
+[2022-05-06 19:46:01.133 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/swagger - - - 301 0 - 1.6607ms
+[2022-05-06 19:46:01.145 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/swagger/index.html - -
+[2022-05-06 19:46:01.195 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/swagger/index.html - - - 200 - text/html;charset=utf-8 49.8487ms
+[2022-05-06 19:46:01.212 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/swagger/swagger-ui.css - -
+[2022-05-06 19:46:01.213 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/swagger/swagger-ui-bundle.js - -
+[2022-05-06 19:46:01.214 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/swagger/swagger-ui-standalone-preset.js - -
+[2022-05-06 19:46:01.233 +05:30  INF]  Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2022-05-06 19:46:01.233 +05:30  INF]  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2022-05-06 19:46:01.233 +05:30  INF]  Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2022-05-06 19:46:01.235 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 22.6782ms
+[2022-05-06 19:46:01.235 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/swagger/swagger-ui.css - - - 200 143632 text/css 23.0260ms
+[2022-05-06 19:46:01.235 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 21.2268ms
+[2022-05-06 19:46:03.153 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/swagger - -
+[2022-05-06 19:46:03.154 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/swagger - - - 301 0 - 0.2109ms
+[2022-05-06 19:46:03.157 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/swagger/index.html - -
+[2022-05-06 19:46:03.158 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/swagger/index.html - - - 200 - text/html;charset=utf-8 0.7396ms
+[2022-05-06 19:46:03.180 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/swagger/swagger-ui.css - -
+[2022-05-06 19:46:03.181 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/swagger/swagger-ui-bundle.js - -
+[2022-05-06 19:46:03.183 +05:30  INF]  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2022-05-06 19:46:03.183 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/swagger/swagger-ui-standalone-preset.js - -
+[2022-05-06 19:46:03.185 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/swagger/swagger-ui.css - - - 200 143632 text/css 4.8855ms
+[2022-05-06 19:46:03.187 +05:30  INF]  Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2022-05-06 19:46:03.187 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 4.1056ms
+[2022-05-06 19:46:03.191 +05:30  INF]  Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2022-05-06 19:46:03.191 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 10.2322ms
+[2022-05-06 19:46:03.407 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/swagger/v1/swagger.json - -
+[2022-05-06 19:46:03.535 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 128.2854ms
+[2022-05-06 19:46:23.864 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/Course/GetTopicById/5 - -
+[2022-05-06 19:46:23.874 +05:30  INF]  Executing endpoint 'TMS.API.Controllers.CourseController.GetTopicDetailsById (TMS.API)'
+[2022-05-06 19:46:23.892 +05:30  INF]  Route matched with {action = "GetTopicDetailsById", controller = "Course"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetTopicDetailsById(Int32) on controller TMS.API.Controllers.CourseController (TMS.API).
+[2022-05-06 19:46:23.900 +05:30  INF]  Executed action TMS.API.Controllers.CourseController.GetTopicDetailsById (TMS.API) in 3.0021ms
+[2022-05-06 19:46:23.901 +05:30  INF]  Executed endpoint 'TMS.API.Controllers.CourseController.GetTopicDetailsById (TMS.API)'
+[2022-05-06 19:46:23.927 +05:30  ERR]  An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'TMS.API.Services.CourseService' while attempting to activate 'TMS.API.Controllers.CourseController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method4(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-05-06 19:46:23.932 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/Course/GetTopicById/5 - - - 500 - text/plain;+charset=utf-8 67.6626ms
+[2022-05-06 19:46:44.805 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/Course/GetAllCourses - -
+[2022-05-06 19:46:44.807 +05:30  INF]  Executing endpoint 'TMS.API.Controllers.CourseController.GetAllCourses (TMS.API)'
+[2022-05-06 19:46:44.808 +05:30  INF]  Route matched with {action = "GetAllCourses", controller = "Course"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllCourses() on controller TMS.API.Controllers.CourseController (TMS.API).
+[2022-05-06 19:46:44.808 +05:30  INF]  Executed action TMS.API.Controllers.CourseController.GetAllCourses (TMS.API) in 0.1316ms
+[2022-05-06 19:46:44.808 +05:30  INF]  Executed endpoint 'TMS.API.Controllers.CourseController.GetAllCourses (TMS.API)'
+[2022-05-06 19:46:44.811 +05:30  ERR]  An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'TMS.API.Services.CourseService' while attempting to activate 'TMS.API.Controllers.CourseController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method6(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-05-06 19:46:44.813 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/Course/GetAllCourses - - - 500 - text/plain;+charset=utf-8 8.6301ms
+[2022-05-06 19:48:19.460 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/Course/GetAllCourses - -
+[2022-05-06 19:48:19.460 +05:30  INF]  Executing endpoint 'TMS.API.Controllers.CourseController.GetAllCourses (TMS.API)'
+[2022-05-06 19:48:19.461 +05:30  INF]  Route matched with {action = "GetAllCourses", controller = "Course"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllCourses() on controller TMS.API.Controllers.CourseController (TMS.API).
+[2022-05-06 19:48:19.461 +05:30  INF]  Executed action TMS.API.Controllers.CourseController.GetAllCourses (TMS.API) in 0.1398ms
+[2022-05-06 19:48:19.461 +05:30  INF]  Executed endpoint 'TMS.API.Controllers.CourseController.GetAllCourses (TMS.API)'
+[2022-05-06 19:48:19.462 +05:30  ERR]  An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'TMS.API.Services.CourseService' while attempting to activate 'TMS.API.Controllers.CourseController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method6(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-05-06 19:48:19.463 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/Course/GetAllCourses - - - 500 - text/plain;+charset=utf-8 3.1265ms
+[2022-05-06 19:48:22.567 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/swagger/index.html - -
+[2022-05-06 19:48:22.568 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/swagger/index.html - - - 200 - text/html;charset=utf-8 0.6570ms
+[2022-05-06 19:48:22.582 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/swagger/swagger-ui.css - -
+[2022-05-06 19:48:22.583 +05:30  INF]  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2022-05-06 19:48:22.583 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/swagger/swagger-ui.css - - - 200 143632 text/css 0.8780ms
+[2022-05-06 19:48:22.838 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/swagger/v1/swagger.json - -
+[2022-05-06 19:48:22.851 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/swagger/favicon-32x32.png - -
+[2022-05-06 19:48:22.851 +05:30  INF]  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+[2022-05-06 19:48:22.852 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/swagger/favicon-32x32.png - - - 200 628 image/png 0.4657ms
+[2022-05-06 19:48:22.872 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 33.8939ms
+[2022-05-06 19:48:27.737 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/Course/GetAllCourses - -
+[2022-05-06 19:48:27.737 +05:30  INF]  Executing endpoint 'TMS.API.Controllers.CourseController.GetAllCourses (TMS.API)'
+[2022-05-06 19:48:27.737 +05:30  INF]  Route matched with {action = "GetAllCourses", controller = "Course"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllCourses() on controller TMS.API.Controllers.CourseController (TMS.API).
+[2022-05-06 19:48:27.738 +05:30  INF]  Executed action TMS.API.Controllers.CourseController.GetAllCourses (TMS.API) in 0.1452ms
+[2022-05-06 19:48:27.738 +05:30  INF]  Executed endpoint 'TMS.API.Controllers.CourseController.GetAllCourses (TMS.API)'
+[2022-05-06 19:48:27.739 +05:30  ERR]  An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'TMS.API.Services.CourseService' while attempting to activate 'TMS.API.Controllers.CourseController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method6(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-05-06 19:48:27.739 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/Course/GetAllCourses - - - 500 - text/plain;+charset=utf-8 2.2596ms
+[2022-05-06 19:49:00.115 +05:30  INF]  Application is shutting down...
+[2022-05-06 19:49:09.995 +05:30  INF]  Now listening on: https://localhost:7161
+[2022-05-06 19:49:10.024 +05:30  INF]  Now listening on: http://localhost:5110
+[2022-05-06 19:49:10.032 +05:30  INF]  Application started. Press Ctrl+C to shut down.
+[2022-05-06 19:49:10.032 +05:30  INF]  Hosting environment: Development
+[2022-05-06 19:49:10.032 +05:30  INF]  Content root path: D:\Team Source\TMS-API\
+[2022-05-06 19:49:16.341 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/ - -
+[2022-05-06 19:49:16.413 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/ - - - 404 0 - 77.4795ms
+[2022-05-06 19:49:22.828 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/swagger - -
+[2022-05-06 19:49:22.833 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/swagger - - - 301 0 - 4.7180ms
+[2022-05-06 19:49:22.842 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/swagger/index.html - -
+[2022-05-06 19:49:22.898 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/swagger/index.html - - - 200 - text/html;charset=utf-8 55.7088ms
+[2022-05-06 19:49:22.914 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/swagger/swagger-ui.css - -
+[2022-05-06 19:49:22.915 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/swagger/swagger-ui-bundle.js - -
+[2022-05-06 19:49:22.915 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/swagger/swagger-ui-standalone-preset.js - -
+[2022-05-06 19:49:22.949 +05:30  INF]  Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2022-05-06 19:49:22.949 +05:30  INF]  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2022-05-06 19:49:22.950 +05:30  INF]  Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2022-05-06 19:49:22.950 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/swagger/swagger-ui.css - - - 200 143632 text/css 35.6754ms
+[2022-05-06 19:49:22.950 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 35.6250ms
+[2022-05-06 19:49:22.950 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 35.5323ms
+[2022-05-06 19:49:23.151 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/swagger/v1/swagger.json - -
+[2022-05-06 19:49:23.286 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 134.3112ms
+[2022-05-06 19:49:34.376 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/Course/GetAllCourses - -
+[2022-05-06 19:49:34.380 +05:30  INF]  Executing endpoint 'TMS.API.Controllers.CourseController.GetAllCourses (TMS.API)'
+[2022-05-06 19:49:34.393 +05:30  INF]  Route matched with {action = "GetAllCourses", controller = "Course"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllCourses() on controller TMS.API.Controllers.CourseController (TMS.API).
+[2022-05-06 19:49:35.307 +05:30  INF]  Entity Framework Core 6.0.0 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+[2022-05-06 19:49:35.754 +05:30  ERR]  Failed executing DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CreatedBy], [c].[CreatedOn], [c].[DepartmentId], [c].[Description], [c].[Duration], [c].[Name], [c].[StatusId], [c].[UpdatedBy], [c].[UpdatedOn], [c].[isDisabled]
+FROM [Courses] AS [c]
+[2022-05-06 19:49:35.785 +05:30  ERR]  An exception occurred while iterating over the results of a query for context type 'TMS.API.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'isDisabled'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__19_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:d82f926d-8fd9-49a3-8589-90a252794249
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'isDisabled'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__19_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:d82f926d-8fd9-49a3-8589-90a252794249
+Error Number:207,State:1,Class:16
+[2022-05-06 19:49:35.788 +05:30  FTL]  An Critical error occured in User services. Some external factors are involved. please check the log files to know more about it
+[2022-05-06 19:49:35.797 +05:30  WRN]  There was an error in getting all user by depatment. please check the user service for more information
+[2022-05-06 19:49:35.798 +05:30  ERR]  error thrown by user service Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'isDisabled'.
+   at TMS.API.Services.CourseService.GetAllCourses() in D:\Team Source\TMS-API\Services\CourseService.cs:line 35
+   at TMS.API.Controllers.CourseController.GetAllCourses() in D:\Team Source\TMS-API\Controllers\CourseController.cs:line 29
+ClientConnectionId:d82f926d-8fd9-49a3-8589-90a252794249
+Error Number:207,State:1,Class:16
+[2022-05-06 19:49:35.801 +05:30  INF]  Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+[2022-05-06 19:49:35.809 +05:30  INF]  Executed action TMS.API.Controllers.CourseController.GetAllCourses (TMS.API) in 1409.6958ms
+[2022-05-06 19:49:35.809 +05:30  INF]  Executed endpoint 'TMS.API.Controllers.CourseController.GetAllCourses (TMS.API)'
+[2022-05-06 19:49:35.813 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/Course/GetAllCourses - - - 500 - application/problem+json;+charset=utf-8 1436.5364ms
+[2022-05-06 20:01:57.426 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/Course/GetAllCourses - -
+[2022-05-06 20:01:57.428 +05:30  INF]  Executing endpoint 'TMS.API.Controllers.CourseController.GetAllCourses (TMS.API)'
+[2022-05-06 20:01:57.428 +05:30  INF]  Route matched with {action = "GetAllCourses", controller = "Course"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllCourses() on controller TMS.API.Controllers.CourseController (TMS.API).
+[2022-05-06 20:01:57.438 +05:30  INF]  Entity Framework Core 6.0.0 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+[2022-05-06 20:01:57.531 +05:30  ERR]  Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CreatedBy], [c].[CreatedOn], [c].[DepartmentId], [c].[Description], [c].[Duration], [c].[Name], [c].[StatusId], [c].[UpdatedBy], [c].[UpdatedOn], [c].[isDisabled]
+FROM [Courses] AS [c]
+[2022-05-06 20:01:57.533 +05:30  ERR]  An exception occurred while iterating over the results of a query for context type 'TMS.API.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'isDisabled'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__19_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:3b927d96-efd7-489a-afd6-0efd2337096d
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'isDisabled'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__19_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:3b927d96-efd7-489a-afd6-0efd2337096d
+Error Number:207,State:1,Class:16
+[2022-05-06 20:01:57.534 +05:30  FTL]  An Critical error occured in User services. Some external factors are involved. please check the log files to know more about it
+[2022-05-06 20:01:57.535 +05:30  WRN]  There was an error in getting all user by depatment. please check the user service for more information
+[2022-05-06 20:01:57.536 +05:30  ERR]  error thrown by user service Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'isDisabled'.
+   at TMS.API.Services.CourseService.GetAllCourses() in D:\Team Source\TMS-API\Services\CourseService.cs:line 35
+   at TMS.API.Controllers.CourseController.GetAllCourses() in D:\Team Source\TMS-API\Controllers\CourseController.cs:line 29
+ClientConnectionId:3b927d96-efd7-489a-afd6-0efd2337096d
+Error Number:207,State:1,Class:16
+[2022-05-06 20:01:57.537 +05:30  INF]  Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+[2022-05-06 20:01:57.537 +05:30  INF]  Executed action TMS.API.Controllers.CourseController.GetAllCourses (TMS.API) in 109.1657ms
+[2022-05-06 20:01:57.538 +05:30  INF]  Executed endpoint 'TMS.API.Controllers.CourseController.GetAllCourses (TMS.API)'
+[2022-05-06 20:01:57.538 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/Course/GetAllCourses - - - 500 - application/problem+json;+charset=utf-8 112.4959ms
+[2022-05-06 20:02:04.094 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/Course/GetAllCourses - -
+[2022-05-06 20:02:04.094 +05:30  INF]  Executing endpoint 'TMS.API.Controllers.CourseController.GetAllCourses (TMS.API)'
+[2022-05-06 20:02:04.095 +05:30  INF]  Route matched with {action = "GetAllCourses", controller = "Course"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllCourses() on controller TMS.API.Controllers.CourseController (TMS.API).
+[2022-05-06 20:02:04.151 +05:30  INF]  Entity Framework Core 6.0.0 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+[2022-05-06 20:02:04.155 +05:30  ERR]  Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CreatedBy], [c].[CreatedOn], [c].[DepartmentId], [c].[Description], [c].[Duration], [c].[Name], [c].[StatusId], [c].[UpdatedBy], [c].[UpdatedOn], [c].[isDisabled]
+FROM [Courses] AS [c]
+[2022-05-06 20:02:04.157 +05:30  ERR]  An exception occurred while iterating over the results of a query for context type 'TMS.API.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'isDisabled'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__19_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:3b927d96-efd7-489a-afd6-0efd2337096d
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'isDisabled'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__19_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:3b927d96-efd7-489a-afd6-0efd2337096d
+Error Number:207,State:1,Class:16
+[2022-05-06 20:02:04.158 +05:30  FTL]  An Critical error occured in User services. Some external factors are involved. please check the log files to know more about it
+[2022-05-06 20:02:04.159 +05:30  WRN]  There was an error in getting all user by depatment. please check the user service for more information
+[2022-05-06 20:02:04.159 +05:30  ERR]  error thrown by user service Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'isDisabled'.
+   at TMS.API.Services.CourseService.GetAllCourses() in D:\Team Source\TMS-API\Services\CourseService.cs:line 35
+   at TMS.API.Controllers.CourseController.GetAllCourses() in D:\Team Source\TMS-API\Controllers\CourseController.cs:line 29
+ClientConnectionId:3b927d96-efd7-489a-afd6-0efd2337096d
+Error Number:207,State:1,Class:16
+[2022-05-06 20:02:04.159 +05:30  INF]  Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+[2022-05-06 20:02:04.159 +05:30  INF]  Executed action TMS.API.Controllers.CourseController.GetAllCourses (TMS.API) in 64.6782ms
+[2022-05-06 20:02:04.159 +05:30  INF]  Executed endpoint 'TMS.API.Controllers.CourseController.GetAllCourses (TMS.API)'
+[2022-05-06 20:02:04.159 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/Course/GetAllCourses - - - 500 - application/problem+json;+charset=utf-8 65.0483ms
+[2022-05-06 20:02:27.595 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/swagger/index.html - -
+[2022-05-06 20:02:27.596 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/swagger/index.html - - - 200 - text/html;charset=utf-8 0.7318ms
+[2022-05-06 20:02:27.612 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/swagger/swagger-ui.css - -
+[2022-05-06 20:02:27.614 +05:30  INF]  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2022-05-06 20:02:27.614 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/swagger/swagger-ui.css - - - 200 143632 text/css 2.4388ms
+[2022-05-06 20:02:27.791 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/swagger/v1/swagger.json - -
+[2022-05-06 20:02:27.805 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/swagger/favicon-32x32.png - -
+[2022-05-06 20:02:27.806 +05:30  INF]  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+[2022-05-06 20:02:27.806 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/swagger/favicon-32x32.png - - - 200 628 image/png 0.3406ms
+[2022-05-06 20:02:27.827 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 36.2604ms
+[2022-05-06 20:02:34.433 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7161/Course/GetAllCourses - -
+[2022-05-06 20:02:34.433 +05:30  INF]  Executing endpoint 'TMS.API.Controllers.CourseController.GetAllCourses (TMS.API)'
+[2022-05-06 20:02:34.434 +05:30  INF]  Route matched with {action = "GetAllCourses", controller = "Course"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllCourses() on controller TMS.API.Controllers.CourseController (TMS.API).
+[2022-05-06 20:02:34.434 +05:30  INF]  Entity Framework Core 6.0.0 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+[2022-05-06 20:02:34.437 +05:30  ERR]  Failed executing DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CreatedBy], [c].[CreatedOn], [c].[DepartmentId], [c].[Description], [c].[Duration], [c].[Name], [c].[StatusId], [c].[UpdatedBy], [c].[UpdatedOn], [c].[isDisabled]
+FROM [Courses] AS [c]
+[2022-05-06 20:02:34.440 +05:30  ERR]  An exception occurred while iterating over the results of a query for context type 'TMS.API.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'isDisabled'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__19_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:3b927d96-efd7-489a-afd6-0efd2337096d
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'isDisabled'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__19_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:3b927d96-efd7-489a-afd6-0efd2337096d
+Error Number:207,State:1,Class:16
+[2022-05-06 20:02:34.441 +05:30  FTL]  An Critical error occured in User services. Some external factors are involved. please check the log files to know more about it
+[2022-05-06 20:02:34.444 +05:30  WRN]  There was an error in getting all user by depatment. please check the user service for more information
+[2022-05-06 20:02:34.444 +05:30  ERR]  error thrown by user service Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'isDisabled'.
+   at TMS.API.Services.CourseService.GetAllCourses() in D:\Team Source\TMS-API\Services\CourseService.cs:line 35
+   at TMS.API.Controllers.CourseController.GetAllCourses() in D:\Team Source\TMS-API\Controllers\CourseController.cs:line 29
+ClientConnectionId:3b927d96-efd7-489a-afd6-0efd2337096d
+Error Number:207,State:1,Class:16
+[2022-05-06 20:02:34.445 +05:30  INF]  Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+[2022-05-06 20:02:34.447 +05:30  INF]  Executed action TMS.API.Controllers.CourseController.GetAllCourses (TMS.API) in 13.0102ms
+[2022-05-06 20:02:34.447 +05:30  INF]  Executed endpoint 'TMS.API.Controllers.CourseController.GetAllCourses (TMS.API)'
+[2022-05-06 20:02:34.448 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7161/Course/GetAllCourses - - - 500 - application/problem+json;+charset=utf-8 14.2911ms

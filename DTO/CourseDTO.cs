@@ -10,12 +10,14 @@ namespace TMS.API.DTO
     {
         public int Id { get; set; }
         public int StatusId { get; set; }
-        [NotMapped]
-        public int TrainerId { get; set; }
+        // [NotMapped]
+        // public int TrainerId { get; set; }
         public int DepartmentId { get; set; }
         public string Name { get; set; }
         public string Duration { get; set; }
         public string Description { get; set; }
+        public string isDisabled { get; set; }
+
 
     }
 }
